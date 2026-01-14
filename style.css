@@ -492,6 +492,10 @@ section h2 {
     color: var(--white);
     text-align: center;
     padding: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 }
 
 /* responsive design (for different screen sizes) */
