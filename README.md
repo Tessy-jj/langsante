@@ -5,8 +5,9 @@ A website for the LangHealth Group, an open forum dedicated to advancing health 
 # Website Structure
 ```
 langsante/
-index.html           # Home page (About Us, Team Leads, Join Us) presentations.html   # Upcoming and past presentations
-videos.html          # Recorded presentations with downloadable slides
+index.html           # Home page (About Us, Team Leads, Join Us) presentations.html  
+past-presentations.html  # Recorded presentations with downloadable slides
+contact.html             # Contact information and how to join
 style.css            # Website styling
 images/              # Team lead and presenter photos
  slides/              # Downloadable PowerPoint files
@@ -17,7 +18,8 @@ images/              # Team lead and presenter photos
  Page Description 
  *Home** | About Us, Team Leads, Join Us contact info |
  *Presentations** | Schedule of upcoming and past presentations |
- *Videos** | Embedded YouTube recordings with presenter info and slides |
+ *Past Presentations** | Embedded YouTube recordings with presenter info and slides |
+ *Contact Us** | Email and information about joining the group |
 ```
 
 # Add a new presentation
@@ -28,9 +30,9 @@ images/              # Team lead and presenter photos
 4. Update the date, title, and presenter name
 5. Save and push to GitHub
 ```
-# Add a new video
+# Add a new past presentation
 ```
-1. Open `videos.html`
+1. Open `past-presentations.html`
 2. Copy an existing `<div class="video-card">` block
 3. Update the YouTube video ID, title, date, and presenter info
 4. Add presenter images to the `images/` folder
@@ -49,4 +51,5 @@ images/              # Team lead and presenter photos
 
 - **HTML** - Page structure and content
 - **CSS** - Styling and layout
+- **Bootstrap 5** - Navbar styling and responsive design 
 

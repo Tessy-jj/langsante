@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LangHealth - Presentations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- navigation -->
-    <nav class="navbar">
-        <div class="nav-brand">
-            <a href="index.html">LangHealth</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container px-md-5">
+            <div class="navbar-brand">
+                <a href="index.html">LangHealth</a>
+            </div>
+            <ul class="nav nav-pills mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="presentations.html">Presentations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="past-presentations.html">Past Presentations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
         </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="presentations.html" class="active">Presentations</a></li>
-            <li><a href="videos.html">Videos</a></li>
-        </ul>
     </nav>
 
-    <!-- header -->
+    <!-- page header -->
     <header class="page-header">
-        <h1>Presentations</h1>
-        <p>LangHealth: Upcoming Presentations in the New Year 2026</p>
+        <h1>Upcoming Presentations</h1>
+        <p>LangHealth: Presentations in the New Year 2026</p>
     </header>
 
-    <!-- future presentations section -->
+    <!-- upcoming presentations section -->
     <section class="presentations-section">
-        <h2>Upcoming Presentations</h2>
-        <p class="section-description">Join us at our future events (in chronological order)</p>
-
         <div class="presentations-list">
-            <!-- Jan 15, 2026 -->
+            <!-- January 15, 2026 -->
             <div class="presentation-card">
                 <div class="presentation-date">
                     <span class="month">Jan</span>
@@ -44,7 +54,7 @@
                 </div>
             </div>
 
-            <!-- Jan 29, 2026 -->
+            <!-- January 29, 2026 -->
             <div class="presentation-card">
                 <div class="presentation-date">
                     <span class="month">Jan</span>
@@ -57,7 +67,7 @@
                 </div>
             </div>
 
-            <!-- feb 12, 2026 -->
+            <!-- February 12, 2026 -->
             <div class="presentation-card">
                 <div class="presentation-date">
                     <span class="month">Feb</span>
@@ -70,7 +80,7 @@
                 </div>
             </div>
 
-            <!-- Feb  26, 2026 -->
+            <!-- February 26, 2026 -->
             <div class="presentation-card">
                 <div class="presentation-date">
                     <span class="month">Feb</span>
@@ -109,30 +119,6 @@
                     <p class="description">Topic of interest: Sharing experiences on recruitment challenges for data collection</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- past presentations section -->
-    <section class="presentations-section past">
-        <h2>Past Presentations</h2>
-        <p class="section-description">Browse our previous presentations (most recent first)</p>
-
-        <div class="presentations-list">
-            <!-- November 20, 2025 -->
-            <div class="presentation-card">
-                <div class="presentation-date">
-                    <span class="month">Nov</span>
-                    <span class="day">20</span>
-                    <span class="year">2025</span>
-                </div>
-                <div class="presentation-details">
-                    <h3>Capturing Health Professionals' Language Capacity in Canada: The Landscape of Registry Data Collected by Provincial/Territorial Regulatory Authorities</h3>
-                    <p class="presenter">Ivy Lynn Bourgeault (University of Ottawa), Nimrit Kenth (Humber Polytechnic), Lise Richard (Société Santé en français)</p>
-                    <a href="videos.html" class="watch-link">📺 Watch Recording</a>
-                </div>
-            </div>
-
-            <!-- for adding more past presentations here as they happen -->
         </div>
     </section>
 
